@@ -99,6 +99,26 @@ div[data-baseweb="input"] > div {
     font-size: 13px;
 }
 
+/* Remove white header background */
+[data-testid="stHeader"] {
+    background: #0b132b !important;
+}
+
+/* Match toolbar with app background */
+[data-testid="stToolbar"] {
+    background: transparent !important;
+}
+
+/* Reduce top empty space */
+.block-container {
+    padding-top: 1rem !important;
+}
+
+/* Main application background */
+[data-testid="stAppViewContainer"] {
+    background: #0b132b;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
